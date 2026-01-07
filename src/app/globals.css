@@ -4,11 +4,14 @@
 :root {
   --primary-color: #0a691ede;
   /* Green From St Veronica Picture */
-  --primary-color: #98280fde;
-  /* Red From St Veronica Picture */
+
   --secondary-color: #f8f9fa;
 }
 
 body {
   background-color: var(--secondary-color);
+}
+
+.navbar {
+  background-color: var(--primary-color);
 }

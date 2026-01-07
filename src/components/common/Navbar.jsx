@@ -1,16 +1,17 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Navbar() {
     return (
         <nav
             className="navbar navbar-expand-lg navbar-dark"
-            style={{ backgroundColor: "var(--primary-color)" }}
+
         >
             <div className="container-fluid">
-                <Link className="navbar-brand fw-bold" href="/">
-                    St. Veronica Parish
+                <Link className="navbar-brand fw-bold fs-3" href="/">
+                    <Image src={"/image/logov.jpg"} width={50} height={50} /> St. Veronica Catholic Church
                 </Link>
 
                 <button
